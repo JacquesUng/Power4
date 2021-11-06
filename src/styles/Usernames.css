@@ -1,0 +1,51 @@
+.usernames {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.usernames > .form {
+    align-items: center;
+    border: 1px solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-between;
+    padding: 12px 0;
+    width: 360px;
+}
+
+.usernames > .form > .fields {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120px;
+    width: 100%;
+}
+
+.usernames > .form > .fields > .field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usernames > .form > .fields > .field > .token {
+    border-radius: 12px;
+    height: 24px;
+    width: 24px;
+}
+
+.usernames > .form > .fields > .field > .label {
+    margin: 0 12px;
+}
+
+.usernames > .form > .actions > .submit {
+    background-color: lightgray;
+    border: none;
+    border-radius: 3px;
+    height: 36px;
+    width: 96px;
+}

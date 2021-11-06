@@ -1,0 +1,30 @@
+.board {
+    background-color: #0066cc;
+    display: flex;
+    height: 480px;
+    width: 840px;
+}
+
+.board > .col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 120px;
+}
+
+.board > .ongoing:hover {
+    opacity: 0.5;
+}
+
+.board > .col > .cell {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.board > .col > .cell > .token {
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+}

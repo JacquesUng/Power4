@@ -1,0 +1,53 @@
+.game {
+    height: 100%;
+}
+
+.game > .header {
+    align-items: center;
+    border-bottom: 1px solid;
+    display: flex;
+    height: 5%;
+    justify-content: space-between;
+    padding: 12px 36px;
+}
+
+.game > .header > .names {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.game > .header > .names > .name {
+    display: flex;
+}
+
+.game > .header > .names > .name > .label {
+    margin-right: 18px;
+}
+
+.game > .header > .back > .button {
+    background-color: lightgray;
+    border: none;
+    border-radius: 3px;
+    height: 36px;
+    width: 96px;
+}
+
+.game > .messageContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 72px;
+}
+
+/* .game > .messageContainer > .message {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+
+.game > .boardContainer {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+}

@@ -21,7 +21,14 @@
     display: flex;
 }
 
+.game > .header > .names > .name > .token {
+    border-radius: 12px;
+    height: 24px;
+    width: 24px;
+}
+
 .game > .header > .names > .name > .label {
+    margin-left: 12px;
     margin-right: 18px;
 }
 

@@ -28,11 +28,13 @@ function Game() {
             <div className="header">
                 <div className="names">
                     <div className="name" style={{fontWeight: turn? 400: 600}} >
+                        <div className="token" style={{ backgroundColor: 'red' }} />
                         <div className="label">Player 1:</div>
                         <div className="value">{username1}</div>
                     </div>
 
                     <div className="name" style={{fontWeight: turn? 600: 400}}>
+                        <div className="token" style={{ backgroundColor: 'yellow' }} />
                         <div className="label">Player 2:</div>
                         <div className="value">{username2}</div>
                     </div>
